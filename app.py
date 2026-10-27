@@ -4,7 +4,7 @@ app = FastAPI()
 
 @app.get("/")
 def home():
-    return {"message": "Hello from my Dockerized API!"}
+    return {"message": "Hello from version 2 of my FastAPI app!"}
 
 @app.get("/health")
 def health():
