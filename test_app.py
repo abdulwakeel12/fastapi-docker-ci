@@ -11,4 +11,4 @@ def test_health():
 def test_home():
     response = client.get("/")
     assert response.status_code == 200
-    assert response.json()["message"] == "Hello from my Dockerized API!"
+    assert response.json()["message"] == "Hello from version 2 of my FastAPI app!"
